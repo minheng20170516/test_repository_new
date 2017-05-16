@@ -1,0 +1,6 @@
+这时候打开我们的GitHub就可以看到我们的项目已经成功push上来了！
+这里我们是通过git remote来设置远程仓库地址的，假如你想修改远程仓库地址，
+比如你把仓库托管换成了Git@OSC，你需要修改远程地址，可以键入：
+git remote set-url origin xxxx
+来修改远程地址，你也可以先删除origin然后再添加：
+git remote rm origin
